@@ -14,8 +14,8 @@ __pycache__/
 *.pyc
 
 # Configuración sensible
+config/
 .env
-config/.env
 
 # Carpeta de datos (excluir todo lo que esté dentro)
 data/

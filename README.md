@@ -12,18 +12,20 @@ Este proyecto contiene un pipeline ETL modular que permite consolidar archivos `
 Centralizar información contenida en múltiples fuentes Excel, transformarla, limpiar formatos de fechas, y cargarla de forma eficiente a Snowflake usando credenciales seguras.
 
 ## 📦 Estructura del proyecto
-etl_nuevo_proyecto/ 
+ETL/ 
 │ 
 ├── README.md
-├── src/ │  
-├── extractor.py 
-│   
-├── transformer.py 
-│   
-├── loader.py 
-│   └── logger.py 
+├── requirements.txt
+├── config.py
+├── functions.py
+├── imports.py
+├── pipeline.ipynb
+├── .gitignore
+├── output/
+│   └── logger.py  
 ├── data/ 
-│   └── raw/ 
+│   └── origen/
+│   └── trabajo/ 
 ├── config/ 
 │   └── .env
 
