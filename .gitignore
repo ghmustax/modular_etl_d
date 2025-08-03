@@ -1,0 +1,21 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs y temporales
+logs/
+*.log
+
+# Entorno virtual
+venv/
+
+# Cachés de Python
+__pycache__/
+*.pyc
+
+# Configuración sensible
+.env
+config/.env
+
+# Carpeta de datos (excluir todo lo que esté dentro)
+data/
